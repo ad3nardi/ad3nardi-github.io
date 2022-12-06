@@ -1,9 +1,9 @@
-main{
-
-
+html{
+background-color: rgb(236, 222, 203);
     }
-
+    
 article{
+    padding: 10px;
 
     }
 
@@ -13,21 +13,59 @@ section{
 
 body{
 
+    font-family: "Monaco", Helvetica, sans-serif;
     }
 
 p   {
-    color: red;
+    color: rgb(27, 36, 36);
     }
   
 h1 {
-    color: navy;
-    margin-left: 20px;
+    font-family: "Verdana", Helvetica, sans-serif;
+    color: rgb(53, 11, 66);
+    padding: 10px;
+    margin-left: 30px;
     }
 
-#2{
-    color: aqua;
+h2  {
+    font-family: "Verdana", Helvetica, sans-serif;
+    }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: peru;
+}
+li{
+    float: left;
+    border-right: 1px solid whitesmoke;
+    }
+
+li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    }
+
+li a:hover{
+    background-color: #555;
+    text-decoration: none;
+    }
+
+.active{
+    background-color: #855;
+    color: white;
 }
 
-#3{
-    color: aqua
-}
+.formatList{
+    color: blue;
+    margin-left: 20px;
+
+    }
