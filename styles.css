@@ -36,6 +36,12 @@ h2 {
     padding: 10px 10px 10px;
     margin-left: 30px;
 }
+h3{
+    font-family: "Verdana", Helvetica, sans-serif;
+    color: rgb(53, 11, 66);
+    padding: 10px 10px 10px;
+    margin-left: 50px;
+}
 
 ul {
     list-style-type: none;
@@ -92,4 +98,20 @@ li a:hover {
     border-style: inset;
     width: 150px;
     padding: 10px 10px 10px;
+}
+
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: row wrap;
+justify-content: center;
+flex-basis: auto;
+align-self: auto;
+    @media(max-width: 800px){
+        .flex-container{
+            flex-direction: column;
+        }
+    }
+
 }
